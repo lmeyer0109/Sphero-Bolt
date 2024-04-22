@@ -13,7 +13,7 @@ async function startProgram() {
 	await delay (2);
 	setSpeed(0);
 
-*/
+
 
 async function startProgram() {
 	setMainLed({ r: 100, g: 75, b: 79 });
@@ -26,5 +26,10 @@ async function startProgram() {
 		await delay(1);
 
 	}
+
+}
+
+*/
+async function startProgram() {
 
 }
