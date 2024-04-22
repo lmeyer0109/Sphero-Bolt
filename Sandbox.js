@@ -21,11 +21,10 @@ async function startProgram() {
 	await delay(1);
 	for (var helloSquare = 0; helloSquare < 4; helloSquare++) {
 		setMainLed(getRandomColor());
-		await Sound.Game.Coin.play(true);
+		await Sound.Effects.Fairy.play(true);
 		await roll((getHeading() + 90), 60, 1);
 		await delay(1);
 
 	}
 
-}
 }
