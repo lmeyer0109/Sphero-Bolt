@@ -8,6 +8,11 @@
 
 // Checkpoint 1
 async function startProgram() {
-	await roll(0, 80, 1)
-	await 2
+	await roll(0, 70, 1)
+	await delay (1);
+
+// Checkpoint 2
+	
+	await roll(-90,60,2)	
+	await delay (1);
 }
