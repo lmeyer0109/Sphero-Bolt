@@ -6,6 +6,8 @@
 // Program URL: https://edu.sphero.com/program/16743353/edit
 
 
+// Checkpoint 1
 async function startProgram() {
-	
+	await roll(0, 80, 1)
+	await 2
 }
