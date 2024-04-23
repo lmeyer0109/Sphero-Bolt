@@ -15,4 +15,10 @@ async function startProgram() {
 	
 	await roll(-90,60,2)	
 	await delay (1);
+
+	// Checkpoint 3
+	await roll(-180,60,1)
+	await delay (1);
+	await roll(90,60,1.5)
+	await delay (2);
 }
