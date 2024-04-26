@@ -36,6 +36,10 @@ async function startProgram() {
 setMainLed({ r: 255, g: 192, b:203 });
 await roll(0,75,2);
 
+// Lauryn Meyer - PC #28 - Checkpoint 2 - Purple
+setMainLed({ r: 160, g: 32, b:240 });
+await roll(+115,85,2)
+await delay (1);
 
 
 }
