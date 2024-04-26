@@ -35,11 +35,23 @@ async function startProgram() {
 	// Lauryn Meyer - PC #28 - Checkpoint 1 - Pink
 setMainLed({ r: 255, g: 192, b:203 });
 await roll(0,75,2);
+await delay (.5);
+	await Sound.Effects.Fairy.play()
 
-// Lauryn Meyer - PC #28 - Checkpoint 2 - Purple
+
+	// Lauryn Meyer - PC #28 - Checkpoint 2 - Purple
 setMainLed({ r: 160, g: 32, b:240 });
 await roll(+115,85,2)
-await delay (1);
+await delay (.5);
+	await Sound.Effects.Fairy.play()
+
+
+	// Lauryn Meyer - PC #28 - Checkpoint 3 - Sound / Pink
+setMainLed({ r: 205, g: 192, b:203 });
+await roll(-45,85,2)
+await delay (.5);
+	await Sound.Effects.Fairy.play()
+	
 
 
 }
