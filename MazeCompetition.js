@@ -6,5 +6,39 @@
 // Program URL:https://edu.sphero.com/program/16788336/edit
 
 async function startProgram() {
-	// Write code here
+	
+	// Programmer: Ash Cowne - Start Text & Audio Checkpoint Commit - Date:4.30.2024
+
+ 
+	await scrollMatrixText('Start!', { r: 66, g: 56, b: 255 }, 90, true)
+	await delay(1)
+	await speak("Start", true);
+	// Programmer: ____ - Blue LED Checkpoint Commit - Date:
+
+
+
+	// Programmer: ____ - Sound One Checkpoint Commit - Date:
+
+
+
+	// Programmer: ____ - Red LED Checkpoint Commit - Date:
+
+
+
+	// Programmer: ____ - Sound Two Checkpoint Commit - Date:
+
+
+
+	// Programmer: ____ - Green LED Checkpoint Commit - Date:
+
+
+
+	// Programmer: ____ - Purple LED & Sound Three Checkpoint Commit - Date:
+
+
+
+	// Programmer: ____ - Finish Text & Audio Checkpoint Commit - Date:
 }
+
+
+
