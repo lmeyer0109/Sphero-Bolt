@@ -15,7 +15,7 @@ async function startProgram() {
 	await speak("Start", true);
 	// Programmer: Lauryn Meyer - Blue LED Checkpoint Commit - Date:
 
-	await roll((getHeading() + 0), 75, 2.25);
+	await roll((getHeading() + 0), 75, 2);
 	await delay(1);
 	setMainLed({ r: 0, g: 0, b: 100 });
 
@@ -30,7 +30,7 @@ async function startProgram() {
 	await roll((getHeading() + 40),75,1);
 	await delay(.5);
 	setMainLed({ r: 100, g: 0, b: 0 });
-	
+
 	// Programmer: ____ - Sound Two Checkpoint Commit - Date:
 
 
