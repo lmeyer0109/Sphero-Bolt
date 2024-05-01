@@ -13,10 +13,11 @@ async function startProgram() {
 	await scrollMatrixText('Start!', { r: 66, g: 56, b: 255 }, 90, true)
 	await delay(1)
 	await speak("Start", true);
-	// Programmer: ____ - Blue LED Checkpoint Commit - Date:
+	// Programmer: Lauryn Meyer - Blue LED Checkpoint Commit - Date: 5.1.2024
 
-
-
+	await roll((getHeading() + 0), 75, 2.25);
+	await delay(1);
+	setMainLed({ r: 0, g: 0, b: 100 });
 	// Programmer: ____ - Sound One Checkpoint Commit - Date:
 
 
