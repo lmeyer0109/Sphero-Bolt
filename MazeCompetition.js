@@ -49,7 +49,16 @@ async function startProgram() {
 	await roll((getHeading() - 90), 60,0.5);
 	setMainLed({ r: 0, g: 100, b: 0 });
 
-	// Programmer: ____ - Purple LED & Sound Three Checkpoint Commit - Date:
+	// Programer: Ash Cowne - Purple LED & Sound Three Checkpoint Commit - Date:
+	await roll((getHeading() + 0), 70,0.5);
+	await delay(1);
+	await roll((getHeading() - 90), 75,1);
+	await delay(1);
+	await roll((getHeading() - 45), 60,0.7);
+	await roll((getHeading() + 45), 60,0.5);
+
+	setMainLed({ r: 50, g:0, b: 50 });
+	await Sound.Effects.JokeDrum.play()
 
 
 
