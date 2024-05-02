@@ -38,11 +38,16 @@ async function startProgram() {
 	await roll((getHeading() - 90), 75,1);
 	await delay(1);
 	await roll((getHeading() + 90), 60,0.7);
-	await Sound.Ambience.Zoo.play()
+	await Sound.Effects.Fireworks.play()
 	
-	// Programmer: ____ - Green LED Checkpoint Commit - Date:
-
-
+	// Programmer: Lauryn Meyer - Green LED Checkpoint Commit - Date: 5.2.2024
+	await delay (1);
+	await roll((getHeading() + 0), 60,0.2);
+	await delay(1);
+	await roll((getHeading() + 90), 75,.5);
+	await delay(1);
+	await roll((getHeading() - 90), 60,0.5);
+	setMainLed({ r: 0, g: 100, b: 0 });
 
 	// Programmer: ____ - Purple LED & Sound Three Checkpoint Commit - Date:
 
