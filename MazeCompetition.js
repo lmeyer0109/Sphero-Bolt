@@ -14,7 +14,7 @@ async function startProgram() {
 
 	// Programmer: Lauryn Meyer - Blue LED Checkpoint Commit - Date: 5.1.2024
 
-	await roll((getHeading() + 0), 75, 2);
+	await roll((getHeading() + 0), 75, 1.9);
 	await delay(1);
 	setMainLed({ r: 0, g: 0, b: 100 });
 
@@ -33,29 +33,28 @@ async function startProgram() {
 	
 
 	// Programer: Ash Cowne - Sound Two Checkpoint Commit - Date: 5.2.2024
-	await roll((getHeading() - 90), 70,0.6);
+	await roll((getHeading() - 90), 65,1);
 	await delay(1);
-	await roll((getHeading() - 90), 75,1);
+	await roll((getHeading() - 90), 55,1);
 	await delay(1);
-	await roll((getHeading() + 90), 60,0.7);
+	await roll((getHeading() + 90), 60,0.8);
 	await Sound.Effects.Fireworks.play()
 	
 	// Programmer: Lauryn Meyer - Green LED Checkpoint Commit - Date: 5.2.2024
-	await delay (1);
-	await roll((getHeading() + 0), 60,0.2);
 	await delay(1);
 	await roll((getHeading() + 90), 75,.5);
-	await delay(1);
-	await roll((getHeading() - 90), 60,0.5);
+	await delay(1);  
+	await roll((getHeading() - 90), 70,0.5);
 	setMainLed({ r: 0, g: 100, b: 0 });
 
 	// Programer: Ash Cowne - Purple LED & Sound Three Checkpoint Commit - Date:
-	await roll((getHeading() + 0), 70,0.5);
 	await delay(1);
-	await roll((getHeading() - 90), 75,1);
+	await roll((getHeading() + 0), 60,0.5);
 	await delay(1);
-	await roll((getHeading() - 45), 60,0.7);
-	await roll((getHeading() + 45), 60,0.5);
+	await roll((getHeading() - 90), 6,1);
+	await delay(1);
+	await roll((getHeading() - 45), 70,0.5);
+	//await roll((getHeading() + 45), 60,0.5);
 
 	setMainLed({ r: 50, g:0, b: 50 });
 	await Sound.Effects.JokeDrum.play()
